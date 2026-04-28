@@ -28,7 +28,7 @@ export default function ApproachSection() {
             <img 
               src="/images/fitline-team.jpeg" 
               alt="Photographer detail" 
-              className="w-full grayscale opacity-80"
+              className="w-full grayscale opacity-80 transition-all duration-700 hover:grayscale-0 hover:opacity-100"
             />
           </FadeIn>
         </div>
