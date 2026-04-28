@@ -26,7 +26,7 @@ export default function ApproachSection() {
         <div className="md:col-span-5">
           <FadeIn>
             <img 
-              src="https://images.unsplash.com/photo-1537633552985-df8429e8048b?q=80&w=1888&auto=format&fit=crop" 
+              src="/images/fitline-team.jpeg" 
               alt="Photographer detail" 
               className="w-full grayscale opacity-80"
             />
