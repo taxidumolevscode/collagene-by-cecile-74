@@ -51,7 +51,7 @@ export default function PricingSection() {
             ( 04 ) INVESTMENT
           </span>
           <h3 className="text-5xl font-black uppercase tracking-tighter">
-            The<br className='xl:block hidden'/>Offer
+            Nos<br className='xl:block hidden'/>Tarifs
           </h3>
         </div>
         
