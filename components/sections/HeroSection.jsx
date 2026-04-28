@@ -24,11 +24,11 @@ export default function HeroSection() {
 
         <div className="relative">
           <AnimatedText
-            text="UNSCRIPTED"
+            text="COLLAGÈNE"
             className="text-[13vw] md:text-[12vw] leading-[0.8] font-black px-2 tracking-tighter uppercase mix-blend-overlay mb-2"
           />
           <AnimatedText
-            text="LOVE STORIES"
+            text="BY CÉCILE"
             className="text-[13vw] md:text-[12vw] leading-[0.8] font-black px-2 tracking-tighter uppercase text-transparent stroke-white border-white"
           />
         </div>
