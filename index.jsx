@@ -113,7 +113,7 @@ export default function LukaszWedding() {
             transition={{ duration: 2 }}
             className="h-0.5 bg-white w-32 mx-auto mb-4"
           />
-          <p className="font-light tracking-[0.3em] text-sm uppercase">Lukasz Milwosz</p>
+          <p className="font-light tracking-[0.3em] text-sm uppercase">Collagène By Cécile</p>
         </motion.div>
       </div>
     );
@@ -125,7 +125,7 @@ export default function LukaszWedding() {
       {/* --- Navigation --- */}
       <nav className="fixed top-0 left-0 w-full p-6 md:p-10 flex justify-between items-center z-40 mix-blend-difference text-white">
         <div className="text-sm md:text-base font-bold tracking-widest uppercase">
-          Lukasz Milwosz
+          Collagène By Cécile
         </div>
         
         <div className="flex items-center gap-8">
@@ -442,7 +442,7 @@ export default function LukaszWedding() {
         {/* Giant Footer Logo */}
         <div className="mt-20 md:mt-0">
           <h1 className="text-[13vw] font-black uppercase leading-none tracking-tighter text-center opacity-20 select-none">
-            Lukasz Milwosz
+            Collagène By Cécile
           </h1>
         </div>
       </section>

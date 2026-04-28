@@ -74,7 +74,7 @@ export default function ContactSection() {
 
       <div className="mt-20 md:mt-0">
         <h1 className="text-[13vw] font-black uppercase leading-none tracking-tighter text-center opacity-20 select-none">
-          Lukasz Milwosz
+          Collagène By Cécile
         </h1>
       </div>
     </section>

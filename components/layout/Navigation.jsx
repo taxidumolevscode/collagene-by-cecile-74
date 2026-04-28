@@ -2,7 +2,7 @@ export default function Navigation({ onMenuOpen }) {
   return (
     <nav className="fixed top-0 left-0 w-full p-6 md:p-10 flex justify-between items-center z-40 mix-blend-difference text-white">
       <div className="text-sm md:text-base font-bold tracking-widest uppercase">
-        Lukasz Milwosz
+        Collagène By Cécile
       </div>
       
       <div className="flex items-center gap-8">
