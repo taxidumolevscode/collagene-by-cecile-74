@@ -130,7 +130,7 @@ export default function LukaszWedding() {
         
         <div className="flex items-center gap-8">
           <a href="#contact" className="hidden md:block text-xs font-bold tracking-widest uppercase border-b border-transparent hover:border-white transition-all">
-            Book a Date
+            Menu
           </a>
           <button onClick={() => setMenuOpen(true)} className="group flex flex-col items-end gap-1.5 cursor-pointer">
              <span className="block w-8 h-[2px] bg-white group-hover:w-6 transition-all duration-300"></span>

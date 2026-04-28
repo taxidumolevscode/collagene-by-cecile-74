@@ -10,7 +10,7 @@ export default function Navigation({ onMenuOpen }) {
           href="#contact" 
           className="hidden md:block text-xs font-bold tracking-widest uppercase border-b border-transparent hover:border-white transition-all"
         >
-          Book a Date
+          Menu
         </a>
         <button 
           onClick={onMenuOpen} 
