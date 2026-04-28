@@ -346,23 +346,23 @@ export default function LukaszWedding() {
             </div>
             <div className="md:col-span-1"></div>
             <div className="md:col-span-6">
-               <span className="block text-xs text-gray-500 font-mono mb-6">( 03 ) THE PROCESS</span>
+               <span className="block text-xs text-gray-500 font-mono mb-6">( 03 ) COMMENT FAIRE ???</span>
                <FadeIn delay={0.2}>
                  <h3 className="text-3xl md:text-5xl font-bold uppercase leading-tight mb-8 text-[#D8A7A0]">
-                   Documentary <br/> Meets Editorial
+                   Tu as envie d’un revenu supplémentaire ou complémentaire
                  </h3>
                  <div className="space-y-8">
                     <div className="border-l border-gray-800 pl-6">
-                       <h4 className="text-lg font-bold uppercase mb-2 text-white">The Candid Eye</h4>
-                       <p className="text-gray-400 text-sm leading-relaxed">I don't interrupt moments. I anticipate them. The best photos happen in the split seconds between the posed shots.</p>
+                       <h4 className="text-lg font-bold uppercase mb-2 text-white">Pourquoi rejoindre ?</h4>
+                       <p className="text-gray-400 text-sm leading-relaxed">Je te propose de rejoindre une équipe incroyable, motivée, solidaire et solaire, qui va te montrer comment transformer ton énergie en résultats concrets.</p>
                     </div>
                     <div className="border-l border-gray-800 pl-6">
-                       <h4 className="text-lg font-bold uppercase mb-2 text-white">Timeless Edit</h4>
-                       <p className="text-gray-400 text-sm leading-relaxed">Black and white for emotion. True-to-life color for the details. No trendy filters that fade with time.</p>
+                       <h4 className="text-lg font-bold uppercase mb-2 text-white">Ce que tu y gagnes</h4>
+                       <p className="text-gray-400 text-sm leading-relaxed">Rejoins mon équipe, rejoins-moi, et découvre comment tes efforts peuvent vraiment porter leurs fruits...</p>
                     </div>
                     <div className="border-l border-gray-800 pl-6">
-                       <h4 className="text-lg font-bold uppercase mb-2 text-white">Luxury Experience</h4>
-                       <p className="text-gray-400 text-sm leading-relaxed">From the first consultation to the final album delivery, every step is curated for ease and elegance.</p>
+                       <h4 className="text-lg font-bold uppercase mb-2 text-white">Et maintenant ?</h4>
+                       <p className="text-gray-400 text-sm leading-relaxed">Si tu as envie d’en savoir plus, viens prendre l’info – ça ne coûte rien !</p>
                     </div>
                  </div>
                </FadeIn>

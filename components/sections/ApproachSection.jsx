@@ -2,16 +2,16 @@ import FadeIn from '../animations/FadeIn';
 
 const approaches = [
   {
-    title: "The Candid Eye",
-    description: "I don't interrupt moments. I anticipate them. The best photos happen in the split seconds between the posed shots."
+    title: "Pourquoi rejoindre ?",
+    description: "Je te propose de rejoindre une équipe incroyable, motivée, solidaire et solaire, qui va te montrer comment transformer ton énergie en résultats concrets."
   },
   {
-    title: "Timeless Edit",
-    description: "Black and white for emotion. True-to-life color for the details. No trendy filters that fade with time."
+    title: "Ce que tu y gagnes",
+    description: "Rejoins mon équipe, rejoins-moi, et découvre comment tes efforts peuvent vraiment porter leurs fruits..."
   },
   {
-    title: "Luxury Experience",
-    description: "From the first consultation to the final album delivery, every step is curated for ease and elegance."
+    title: "Et maintenant ?",
+    description: "Si tu as envie d’en savoir plus, viens prendre l’info – ça ne coûte rien !"
   }
 ];
 
@@ -35,11 +35,11 @@ export default function ApproachSection() {
         <div className="md:col-span-1"></div>
         <div className="md:col-span-6">
           <span className="block text-xs text-gray-500 font-mono mb-6">
-            ( 03 ) THE PROCESS
+            ( 03 ) COMMENT FAIRE ???
           </span>
           <FadeIn delay={0.2}>
             <h3 className="text-3xl lg:text-5xl font-bold uppercase leading-tight mb-8 text-[#D8A7A0]">
-              Documentary <br className='xl:block hidden' /> Meets Editorial
+              Tu as envie d’un revenu supplémentaire ou complémentaire
             </h3>
             <div className="space-y-8">
               {approaches.map((approach, index) => (
