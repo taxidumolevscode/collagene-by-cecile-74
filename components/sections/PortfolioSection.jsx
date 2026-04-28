@@ -4,7 +4,7 @@ const portfolioItems = [
   {
     image:
       "/images/saveclip-app.jpg",
-    couple: "Anna & Tom",
+    couple: "Marlard Cécile",
     location: "Tuscany, Italy",
     delay: 0,
     offset: false,

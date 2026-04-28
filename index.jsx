@@ -274,7 +274,7 @@ export default function LukaszWedding() {
                 />
               </div>
               <div className="mt-4 flex justify-between items-center">
-                <span className="text-sm font-bold uppercase tracking-widest">Anna & Tom</span>
+                <span className="text-sm font-bold uppercase tracking-widest">Marlard Cécile</span>
                 <span className="text-xs text-gray-500">Tuscany, Italy</span>
               </div>
             </FadeIn>
