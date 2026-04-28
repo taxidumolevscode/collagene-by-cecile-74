@@ -54,7 +54,7 @@ const AnimatedText = ({ text, className = "" }) => {
 
   return (
     <motion.div
-      style={{ overflow: "hidden", display: "flex", flexWrap: "wrap" }}
+      style={{ overflow: "visible", display: "flex", flexWrap: "wrap" }}
       variants={container}
       initial="hidden"
       whileInView="visible"
@@ -191,11 +191,11 @@ export default function LukaszWedding() {
           <div className="relative">
             <AnimatedText 
               text="COLLAGÈNE" 
-              className="text-[15vw] md:text-[12vw] leading-[0.8] font-black tracking-tighter uppercase mix-blend-overlay"
+              className="text-[15vw] md:text-[12vw] leading-none pt-[0.5cm] font-black tracking-tighter uppercase mix-blend-overlay"
             />
              <AnimatedText 
               text="BY CÉCILE" 
-              className="text-[15vw] md:text-[12vw] leading-[0.8] font-black tracking-tighter uppercase text-transparent stroke-white border-white"
+              className="text-[15vw] md:text-[12vw] leading-none pt-[0.5cm] font-black tracking-tighter uppercase text-transparent stroke-white border-white"
             />
              {/* Stroke effect simulation via CSS class below */}
              <style>{`
