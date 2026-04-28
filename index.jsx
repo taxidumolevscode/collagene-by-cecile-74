@@ -111,9 +111,9 @@ export default function LukaszWedding() {
             initial={{ width: 0 }}
             animate={{ width: "100%" }}
             transition={{ duration: 2 }}
-            className="h-0.5 bg-white w-32 mx-auto mb-4"
+            className="h-0.5 bg-[#D8A7A0] w-32 mx-auto mb-4"
           />
-          <p className="font-light tracking-[0.3em] text-sm uppercase">Collagène By Cécile</p>
+          <p className="font-light tracking-[0.3em] text-sm uppercase text-[#D8A7A0]">Collagène By Cécile</p>
         </motion.div>
       </div>
     );
@@ -123,18 +123,18 @@ export default function LukaszWedding() {
     <div className="bg-black text-white min-h-screen font-sans selection:bg-white selection:text-black overflow-x-hidden">
       
       {/* --- Navigation --- */}
-      <nav className="fixed top-0 left-0 w-full p-6 md:p-10 flex justify-between items-center z-40 mix-blend-difference text-white">
+      <nav className="fixed top-0 left-0 w-full p-6 md:p-10 flex justify-between items-center z-40 text-[#D8A7A0]">
         <div className="text-sm md:text-base font-bold tracking-widest uppercase">
           Collagène By Cécile
         </div>
         
         <div className="flex items-center gap-8">
-          <a href="#contact" className="hidden md:block text-xs font-bold tracking-widest uppercase border-b border-transparent hover:border-white transition-all">
+          <a href="#contact" className="hidden md:block text-xs font-bold tracking-widest uppercase border-b border-transparent hover:border-[#D8A7A0] transition-all">
             Menu
           </a>
           <button onClick={() => setMenuOpen(true)} className="group flex flex-col items-end gap-1.5 cursor-pointer">
-             <span className="block w-8 h-[2px] bg-white group-hover:w-6 transition-all duration-300"></span>
-             <span className="block w-5 h-[2px] bg-white group-hover:w-8 transition-all duration-300"></span>
+             <span className="block w-8 h-[2px] bg-[#D8A7A0] group-hover:w-6 transition-all duration-300"></span>
+             <span className="block w-5 h-[2px] bg-[#D8A7A0] group-hover:w-8 transition-all duration-300"></span>
           </button>
         </div>
       </nav>
@@ -191,7 +191,7 @@ export default function LukaszWedding() {
           <div className="relative">
             <AnimatedText 
               text="COLLAGÈNE" 
-              className="text-[15vw] md:text-[12vw] leading-none pt-[0.5cm] font-black tracking-tighter uppercase mix-blend-overlay"
+              className="text-[15vw] md:text-[12vw] leading-none pt-[0.5cm] font-black tracking-tighter uppercase text-[#D8A7A0]"
             />
              <AnimatedText 
               text="BY CÉCILE" 
@@ -200,12 +200,12 @@ export default function LukaszWedding() {
              {/* Stroke effect simulation via CSS class below */}
              <style>{`
                .text-transparent {
-                 -webkit-text-stroke: 2px white;
+                 -webkit-text-stroke: 2px #D8A7A0;
                  color: transparent;
                }
                @media (max-width: 768px) {
                  .text-transparent {
-                   -webkit-text-stroke: 1px white;
+                   -webkit-text-stroke: 1px #D8A7A0;
                  }
                }
              `}</style>
@@ -230,9 +230,9 @@ export default function LukaszWedding() {
           <div className="md:col-span-9">
             <FadeIn>
               <h3 className="text-4xl md:text-7xl font-bold leading-tight uppercase tracking-tight mb-12">
-                Not everyone wants <br/>
+                <span className="text-[#D8A7A0]">Not everyone wants</span> <br/>
                 <span className="text-gray-500">perfect poses.</span> <br/>
-                You want real moments.
+                <span className="text-[#D8A7A0]">You want real moments.</span>
               </h3>
             </FadeIn>
             <FadeIn delay={0.2}>
@@ -348,7 +348,7 @@ export default function LukaszWedding() {
             <div className="md:col-span-6">
                <span className="block text-xs text-gray-500 font-mono mb-6">( 03 ) THE PROCESS</span>
                <FadeIn delay={0.2}>
-                 <h3 className="text-3xl md:text-5xl font-bold uppercase leading-tight mb-8">
+                 <h3 className="text-3xl md:text-5xl font-bold uppercase leading-tight mb-8 text-[#D8A7A0]">
                    Documentary <br/> Meets Editorial
                  </h3>
                  <div className="space-y-8">
@@ -392,7 +392,7 @@ export default function LukaszWedding() {
         <div className="max-w-3xl relative z-10">
            <span className="block text-xs font-bold tracking-widest text-gray-500 mb-6">( 05 ) START THE CONVERSATION</span>
            <FadeIn>
-             <h2 className="text-5xl md:text-8xl font-black uppercase tracking-tighter leading-none mb-10">
+             <h2 className="text-5xl md:text-8xl font-black uppercase tracking-tighter leading-none mb-10 text-[#D8A7A0]">
                Your Story <br/> Starts Here.
              </h2>
              <p className="text-xl text-gray-400 max-w-md mb-10">
@@ -441,7 +441,7 @@ export default function LukaszWedding() {
 
         {/* Giant Footer Logo */}
         <div className="mt-20 md:mt-0">
-          <h1 className="text-[13vw] font-black uppercase leading-none tracking-tighter text-center opacity-20 select-none">
+          <h1 className="text-[13vw] font-black uppercase leading-none tracking-tighter text-center text-[#D8A7A0] opacity-20 select-none">
             Collagène By Cécile
           </h1>
         </div>

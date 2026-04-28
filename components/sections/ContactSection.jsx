@@ -18,7 +18,7 @@ export default function ContactSection() {
           ( 06 ) START THE CONVERSATION
         </span>
         <FadeIn>
-          <h2 className="text-5xl md:text-6xl lg::text-8xl font-black uppercase tracking-tighter leading-none mb-10">
+          <h2 className="text-5xl md:text-6xl lg::text-8xl font-black uppercase tracking-tighter leading-none mb-10 text-[#D8A7A0]">
             Your Story <br/> Starts Here.
           </h2>
           <p className="text-xl text-gray-400 max-w-md mb-10">
@@ -73,7 +73,7 @@ export default function ContactSection() {
       </div>
 
       <div className="mt-20 md:mt-0">
-        <h1 className="text-[13vw] font-black uppercase leading-none tracking-tighter text-center opacity-20 select-none">
+        <h1 className="text-[13vw] font-black uppercase leading-none tracking-tighter text-center text-[#D8A7A0] opacity-20 select-none">
           Collagène By Cécile
         </h1>
       </div>

@@ -10,9 +10,9 @@ export default function IntroSection() {
         <div className="md:col-span-9">
           <FadeIn>
             <h3 className="text-4xl md:text-5xl xl:text-7xl font-bold leading-tight uppercase tracking-tight mb-12">
-              Not everyone wants <br/>
+              <span className="text-[#D8A7A0]">Not everyone wants</span> <br/>
               <span className="text-gray-500">perfect poses.</span> <br/>
-              You want real moments.
+              <span className="text-[#D8A7A0]">You want real moments.</span>
             </h3>
           </FadeIn>
           <FadeIn delay={0.2}>

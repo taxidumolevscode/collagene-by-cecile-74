@@ -68,7 +68,9 @@ export default function PricingSection() {
                 }
               >
                 <div className="flex justify-between items-baseline mb-4">
-                  <h4 className="text-xl font-bold uppercase">{pkg.name}</h4>
+                  <h4 className={`text-xl font-bold uppercase ${pkg.name === 'Narrative' ? 'text-[#D8A7A0]' : ''}`}>
+                    {pkg.name}
+                  </h4>
                   <span className="text-sm font-mono">{pkg.price}</span>
                 </div>
                 
@@ -91,7 +93,7 @@ export default function PricingSection() {
                 <button className={
                   pkg.featured
                     ? "w-full py-3 bg-white text-black text-xs font-bold uppercase tracking-widest hover:bg-gray-200 transition-all"
-                    : "w-full py-3 border border-black text-xs font-bold uppercase tracking-widest hover:bg-black hover:text-white transition-all"
+                    : "w-full py-3 bg-[#D8A7A0] text-black text-xs font-bold uppercase tracking-widest hover:bg-black hover:text-white transition-all"
                 }>
                   {pkg.featured ? 'Most Popular' : 'Select'}
                 </button>

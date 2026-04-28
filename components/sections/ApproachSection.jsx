@@ -38,7 +38,7 @@ export default function ApproachSection() {
             ( 03 ) THE PROCESS
           </span>
           <FadeIn delay={0.2}>
-            <h3 className="text-3xl lg:text-5xl font-bold uppercase leading-tight mb-8">
+            <h3 className="text-3xl lg:text-5xl font-bold uppercase leading-tight mb-8 text-[#D8A7A0]">
               Documentary <br className='xl:block hidden' /> Meets Editorial
             </h3>
             <div className="space-y-8">
