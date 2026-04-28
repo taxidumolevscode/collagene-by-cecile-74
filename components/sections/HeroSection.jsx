@@ -17,7 +17,7 @@ export default function HeroSection() {
         <div className="w-full text-left  px-3 xl:px-6">
           <FadeIn delay={0.2}>
             <h2 className="text-xs md:text-sm minW1600:!text-[1.6vw] tracking-[0.2em] md:tracking-[0.4em] uppercase mb-4">
-              Fine Art Wedding Photography
+              spécialiste du rayonnement de la peau
             </h2>
           </FadeIn>
         </div>

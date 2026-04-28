@@ -185,7 +185,7 @@ export default function LukaszWedding() {
 
         <div className="z-10 text-center flex flex-col items-center">
           <FadeIn delay={0.2}>
-             <h2 className="text-xs md:text-sm tracking-[0.4em] uppercase mb-4">Fine Art Wedding Photography</h2>
+             <h2 className="text-xs md:text-sm tracking-[0.4em] uppercase mb-4">spécialiste du rayonnement de la peau</h2>
           </FadeIn>
           
           <div className="relative">
