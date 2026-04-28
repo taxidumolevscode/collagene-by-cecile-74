@@ -153,7 +153,7 @@ export default function LukaszWedding() {
               <X size={32} />
             </button>
             <ul className="space-y-6 md:space-y-10">
-              {['Portfolio', 'Philosophy', 'Stories', 'Contact'].map((item) => (
+              {['Portfolio', 'Philosophy', 'Investment', 'Contact'].map((item) => (
                 <li key={item} className="overflow-hidden">
                   <motion.a
                     href={`#${item.toLowerCase()}`}
@@ -161,7 +161,7 @@ export default function LukaszWedding() {
                     initial={{ y: 100 }}
                     animate={{ y: 0 }}
                     transition={{ duration: 0.5, delay: 0.3 }}
-                    className="block text-4xl md:text-7xl font-black uppercase tracking-tighter hover:text-gray-400 transition-colors cursor-pointer"
+                    className="block text-4xl md:text-7xl font-black uppercase tracking-tighter text-[#D8A7A0] hover:text-[#c8938b] transition-colors cursor-pointer"
                   >
                     {item}
                   </motion.a>
