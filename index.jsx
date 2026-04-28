@@ -268,7 +268,7 @@ export default function LukaszWedding() {
             <FadeIn className="group relative overflow-hidden cursor-pointer">
               <div className="aspect-[3/4] overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1974&auto=format&fit=crop" 
+                  src="/images/saveclip-app.jpg" 
                   alt="Wedding 1" 
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0"
                 />

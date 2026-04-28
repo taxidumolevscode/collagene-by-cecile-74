@@ -3,7 +3,7 @@ import FadeIn from "../animations/FadeIn";
 const portfolioItems = [
   {
     image:
-      "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1974&auto=format&fit=crop",
+      "/images/saveclip-app.jpg",
     couple: "Anna & Tom",
     location: "Tuscany, Italy",
     delay: 0,
