@@ -417,8 +417,8 @@ export default function LukaszWedding() {
            <div>
               <h4 className="text-xs font-bold text-gray-500 uppercase mb-4">Contact</h4>
               <ul className="space-y-2 text-sm">
-                <li>hello@lukaszmilwosz.com</li>
-                <li>+1 (555) 000-1234</li>
+                <li>contact@CollagenebyCecile.com</li>
+                <li>07 70 97 05 81</li>
               </ul>
            </div>
            <div>
@@ -431,7 +431,7 @@ export default function LukaszWedding() {
            </div>
            <div className="flex items-end justify-end">
              <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="group flex items-center gap-2">
-               <span className="text-xs uppercase font-bold">Back to Top</span>
+               <span className="text-xs uppercase font-bold">Retour</span>
                <div className="p-2 border border-white rounded-full group-hover:bg-white group-hover:text-black transition-colors">
                  <div className="w-3 h-3 border-t-2 border-l-2 border-current transform rotate-45 translate-y-0.5"></div>
                </div>

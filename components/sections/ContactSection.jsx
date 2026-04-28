@@ -2,7 +2,7 @@ import FadeIn from '../animations/FadeIn';
 
 const footerLinks = {
   socials: ['Instagram', 'Pinterest', 'Vimeo'],
-  contact: ['hello@lukaszmilwosz.com', '+1 (555) 000-1234'],
+  contact: ['contact@CollagenebyCecile.com', '07 70 97 05 81'],
   locations: ['London', 'Paris', 'Destination']
 };
 
@@ -64,7 +64,7 @@ export default function ContactSection() {
         </div>
         <div className="flex items-end justify-end">
           <button onClick={scrollToTop} className="group flex items-center gap-2">
-            <span className="text-xs uppercase font-bold">Back to Top</span>
+            <span className="text-xs uppercase font-bold">Retour</span>
             <div className="p-2 border border-white rounded-full group-hover:bg-white group-hover:text-black transition-colors">
               <div className="w-3 h-3 border-t-2 border-l-2 border-current transform rotate-45 translate-y-0.5"></div>
             </div>
